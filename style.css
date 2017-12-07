@@ -1,66 +1,91 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box
-}
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box
+    }
 
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-body{
-    font-family:Helvetica ,Arial;
-    font-size: 18px;
-    
-}
-h1,h2{
-    color: #00a000;
-}
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    body{
+        font-family:Helvetica ,Arial;
+        font-size: 18px;
+        
+    }
+    h1,h2{
+        color: #00a000;
+    }
 
-h1 {
- font-size: 40px;
- margin-bottom: 20px;
-}
-
-h2 {
-    font-size: 25px;
-    margin-bottom: 10px;
-   }
-
- 
-
-.main-text {
-    text-align: justify;
+    h1 {
+    font-size: 40px;
     margin-bottom: 20px;
-}
+    }
 
-#author-name{
-    font-size: 22px;
-    margin-left: auto;
-}
+    h2 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
 
-.container {
-    width: 1140px;
-    margin: 20px auto 0 auto;
+    
 
-}
+    .main-text {
+        text-align: justify;
+        margin-bottom: 20px;
+    }
 
-.blog-post {
-    width: 75%;
-    float: left;
-    padding-right: 20px;
+    #author-name{
+        font-size: 22px;
+        float: left;
+        margin-top: 35px;
+        margin-left:20px; 
+        
+    }
 
-}
+    .container {
+        width: 1140px;
+        margin: 20px auto 0 auto;
+    }
 
-.other-posts {
-    width: 25%;
-    float: left;
-}
+    .blog-post {
+        width: 75%;
+        float: left;
+        padding-right: 20px;
+        position: relative;
+    }
 
-.author-box {
-    border-top: solid 1px #efefef;
-    padding-top: 20px;
-}
+    .other-posts {
+        width: 25%;
+        float: left;
+    }
 
-   
+    .author-box {
+        border-top: solid 2px #8a8989;
+        padding-top: 20px;
+    }
+
+    .other {
+        margin-bottom:40px; 
+        border-left: 5px solid #00a000;
+        padding-left: 20px;
+    }
+
+    .author-box img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        float: left; 
+    }
+
+    .blog-post img {
+        height: 300px;
+        width: auto;
+
+    }
+
+    .date {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
